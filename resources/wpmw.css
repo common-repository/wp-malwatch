@@ -1,0 +1,42 @@
+#wp-malwatch-wrap .inside {
+    margin: 12px !important;
+}
+
+.wpmw-all-clear, .wpmw-warning {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-position: center center;
+}
+
+.wpmw-all-clear {
+    background: no-repeat url('img/all-clear.png');
+}
+
+.wpmw-warning {
+    background: no-repeat url('img/warning.png');
+}
+
+#wpmw-dashboard-learn {
+	float: right;
+	width: 120px;
+}
+
+#wpmw-dashboard-info {
+	margin-right: 130px;
+}
+
+.wpmw-file-contents pre {
+	border: 1px solid #000;
+	background: #fff;
+	padding: 10px;
+	display: none;
+}
+
+.wpmw-section-description > div {
+	display: none;
+}
+
+.wpmw-section-description h3 {
+	font-size: 1em;
+}
